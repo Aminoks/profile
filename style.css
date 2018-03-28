@@ -6,29 +6,69 @@ body {
   color: #28375D;
 }
 h1 {
-  color: #D8315B;
+  margin-top: 0px;
+  color: #DB324D;
 }
 h2 {
-  color: #759FBC;
+  color: #3E92CC;
 }
 h3 {
   color: #9E2443;
 }
 a {
   color: #1F5673;
+  text-decoration: none;
 }
 a:hover {
   color: #FF4136;
 }
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.big-icon {
+  font-size: 35px;
+}
 .container {
-  margin: 0, auto;
-  width: 500px
+  margin: 0 auto;
+  width: 500px;
 }
 .card {
   background: #FEFEFF;
   border-radius: 5px;
   box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
-  padding: 10px, 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.img-circle {
+  width: 200px
+  height: 200px;
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+.cellpadding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.rowpadding {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.img-small {
+  width: 150px;
+  height: 150px;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
