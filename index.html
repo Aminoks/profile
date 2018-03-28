@@ -4,15 +4,24 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div id="sidebar">
+    <ul>
+      <li><a href="#summary"><i class="fas fa-info white-text big-icon"></i></a></li>
+      <li><a href="#favorite-movies"><i class="fas fa-film white-text big-icon"></i></a></li>
+    </ul>
+  </div>
+  <div id="page-content">
   <div class= "container">
-    <div class= "card text-center">
-      <img src="images/me.jpg" class="img-small img-circle" alt="">
+    <div id="summary" class= "card text-center">
+      <img src="images/me.jpg" class="img-circle" alt="">
       <h1>Amine Bensaid</h1>
       <h2>Programmer</h2>
       <p>I'm a cool guy and I love cool stuff.</p>
+      <button class= "button">WIN CASH</button>
     </div>
     <div class= "card text-center">
       <ul class= "list-inline">
@@ -24,13 +33,13 @@
         </li>
       </ul>
     </div>
-    <div class= "card text-center">
+    <div id="favorite-movies" class= "card text-center">
       <h2>Best movies of all time</h2>
       <table>
         <tbody>
           <tr>
             <td class= "cellpadding">
-              <img class="rowpadding" src="https://ia.media-imdb.com/images/M/MV5BMzFjMWNhYzQtYTIxNC00ZWQ1LThiOTItNWQyZmMxNDYyMjA5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+              <img class="rowpadding img-small" src="https://ia.media-imdb.com/images/M/MV5BMzFjMWNhYzQtYTIxNC00ZWQ1LThiOTItNWQyZmMxNDYyMjA5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
             </td>
             <td class= "cellpadding">
               <h3>Fight Club</h3>
@@ -39,7 +48,7 @@
           </tr>
           <tr>
             <td class= "cellpadding">
-              <img class="rowpadding" src="https://ia.media-imdb.com/images/M/MV5BNjFmN2UwYWEtMmNiNi00YTU5LThiM2YtMmU4YzYzYTA3YWFjXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+              <img class="rowpadding img-small" src="https://ia.media-imdb.com/images/M/MV5BNjFmN2UwYWEtMmNiNi00YTU5LThiM2YtMmU4YzYzYTA3YWFjXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
             </td>
             <td class= "cellpadding">
               <h3>The Acountant</h3>
@@ -48,7 +57,7 @@
           </tr>
           <tr>
             <td class= "cellpadding">
-              <img class="rowpadding" src="https://ia.media-imdb.com/images/M/MV5BY2Q2NzQ3ZDUtNWU5OC00Yjc0LThlYmEtNWM3NTFmM2JiY2VhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg" alt="">
+              <img class="rowpadding img-small" src="https://ia.media-imdb.com/images/M/MV5BY2Q2NzQ3ZDUtNWU5OC00Yjc0LThlYmEtNWM3NTFmM2JiY2VhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg" alt="">
             </td>
             <td class= "cellpadding">
               <h3>Godfather</h3>
@@ -58,6 +67,7 @@
         </tbody>
       </table>
     </div>
+  </div>
   </div>
 </body>
 </html>
