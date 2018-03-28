@@ -1,0 +1,50 @@
+body {
+  background:#F2F4F5;
+  font-family: 'open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: #28375D;
+}
+h1 {
+  color: #D8315B;
+}
+h2 {
+  color: #759FBC;
+}
+h3 {
+  color: #9E2443;
+}
+a {
+  color: #1F5673;
+}
+a:hover {
+  color: #FF4136;
+}
+.container {
+  margin: 0, auto;
+  width: 500px
+}
+.card {
+  background: #FEFEFF;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+  padding: 10px, 0;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
